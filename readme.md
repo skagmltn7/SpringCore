@@ -253,8 +253,7 @@
 > :exclamation: 중복 이름 빈 처리<br/>
 > 1. 자동 등록 vs 자동 등록<br/>
 > 컴포넌트 스캔으로 인해 자동 스프링 빈 등록<br/>
-> `ConflictingBeanDefinitionException`예외 발생
-<br/>
+> `ConflictingBeanDefinitionException`예외 발생<br/>
 > 2. 자동 등록 vs 수동 등록<br/>
 > @Bean(name=" ")으로 직접 빈이름을 지정한 것을 수동 등록이라 함<br/>
 > 수동 등록 빈이 우선권을 가져 자동 빈을 오버라이딩<br/>
@@ -537,8 +536,6 @@ public class NetworkClient {
 - 해결책 : 지연 처리 가능
     - `Provider<>`
     - `ObjectProvider`
-
-> :exclamation: 프로토타입 사용 의도
 
 ### ObjectFactory, ObjectProvider
 
